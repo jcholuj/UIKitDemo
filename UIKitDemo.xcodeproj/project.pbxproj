@@ -19,7 +19,6 @@
 		B64F6B6326C121E1008EE831 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6B6226C121E1008EE831 /* Endpoint.swift */; };
 		B64F6B6526C12462008EE831 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6B6426C12462008EE831 /* ApiClient.swift */; };
 		B64F6B6726C12732008EE831 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6B6626C12732008EE831 /* UIImageViewExtension.swift */; };
-		B64F6B6926C128E3008EE831 /* ReactiveExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6B6826C128E3008EE831 /* ReactiveExtension.swift */; };
 		B6618E71268E414E00E83058 /* SwitchBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6618E70268E414E00E83058 /* SwitchBackgroundView.swift */; };
 		B69FE3552642A999005340E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FE3542642A999005340E2 /* AppDelegate.swift */; };
 		B69FE3572642A999005340E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FE3562642A999005340E2 /* SceneDelegate.swift */; };
@@ -38,7 +37,6 @@
 		B64F6B6226C121E1008EE831 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		B64F6B6426C12462008EE831 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		B64F6B6626C12732008EE831 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
-		B64F6B6826C128E3008EE831 /* ReactiveExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveExtension.swift; sourceTree = "<group>"; };
 		B6618E70268E414E00E83058 /* SwitchBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchBackgroundView.swift; sourceTree = "<group>"; };
 		B69FE3512642A999005340E2 /* UIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69FE3542642A999005340E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +72,26 @@
 			path = CustomSwitch;
 			sourceTree = "<group>";
 		};
+		B64F6B6A26C1311B008EE831 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B64F6B5026C113F9008EE831 /* UIColorExtension.swift */,
+				B64F6B6626C12732008EE831 /* UIImageViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B64F6B6B26C13145008EE831 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B64F6B5626C12027008EE831 /* ApiService.swift */,
+				B64F6B6026C12167008EE831 /* ApiError.swift */,
+				B64F6B6226C121E1008EE831 /* Endpoint.swift */,
+				B64F6B6426C12462008EE831 /* ApiClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		B69FE3482642A999005340E2 = {
 			isa = PBXGroup;
 			children = (
@@ -94,21 +112,16 @@
 			isa = PBXGroup;
 			children = (
 				B64F6B4C26C06D10008EE831 /* CustomSwitch */,
+				B64F6B6A26C1311B008EE831 /* Extension */,
 				B69FE3542642A999005340E2 /* AppDelegate.swift */,
 				B69FE3562642A999005340E2 /* SceneDelegate.swift */,
 				B69FE3582642A999005340E2 /* ViewController.swift */,
 				B69FE35D2642A99A005340E2 /* Assets.xcassets */,
 				B69FE35F2642A99A005340E2 /* LaunchScreen.storyboard */,
 				B69FE3622642A99A005340E2 /* Info.plist */,
-				B64F6B5026C113F9008EE831 /* UIColorExtension.swift */,
 				B64F6B5226C11D1B008EE831 /* DemoTableViewCell.swift */,
 				B64F6B5426C11FEA008EE831 /* Character.swift */,
-				B64F6B5626C12027008EE831 /* ApiService.swift */,
-				B64F6B6026C12167008EE831 /* ApiError.swift */,
-				B64F6B6226C121E1008EE831 /* Endpoint.swift */,
-				B64F6B6426C12462008EE831 /* ApiClient.swift */,
-				B64F6B6626C12732008EE831 /* UIImageViewExtension.swift */,
-				B64F6B6826C128E3008EE831 /* ReactiveExtension.swift */,
+				B64F6B6B26C13145008EE831 /* Networking */,
 			);
 			path = UIKitDemo;
 			sourceTree = "<group>";
@@ -201,7 +214,6 @@
 				B64F6B5126C113F9008EE831 /* UIColorExtension.swift in Sources */,
 				B64F6B5726C12027008EE831 /* ApiService.swift in Sources */,
 				B6B6B2A726860C7E00D3C4A5 /* CustomSwitch.swift in Sources */,
-				B64F6B6926C128E3008EE831 /* ReactiveExtension.swift in Sources */,
 				B69FE3572642A999005340E2 /* SceneDelegate.swift in Sources */,
 				B64F6B6326C121E1008EE831 /* Endpoint.swift in Sources */,
 				B64F6B5526C11FEA008EE831 /* Character.swift in Sources */,

@@ -6,8 +6,6 @@
 //
 
 import UIKit
-import RxSwift
-import RxCocoa
 
 class ViewController: UIViewController {
     
@@ -15,17 +13,12 @@ class ViewController: UIViewController {
     private var fetchButton = UIButton()
     private var tableView = UITableView()
     
-    private let disposeBag = DisposeBag()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupHierarchy()
         setupLayout()
         setupProperties()
-        bindSwitch()
-        bindButton()
-        bindTableView()
     }
     
     private func setupHierarchy() {
@@ -71,40 +64,7 @@ class ViewController: UIViewController {
         tableView.register(DemoTableViewCell.self, forCellReuseIdentifier: "Cell")
     }
     
-    private func bindTableView() {
-        tableView.rx
-            .setDelegate(self)
-            .disposed(by: disposeBag)
-    }
-    
-    private func bindButton() {
-        fetchButton.rx.tap
-            .bind { [weak self] in self?.inputTableView() }
-            .disposed(by: disposeBag)
-    }
-    
-    private func bindSwitch() {
-        switchView.customSwitch.rx.isOnValue
-            .bind { [weak self] in
-                self?.fetchButton.isEnabled = $0
-                self?.fetchButton.backgroundColor = $0 ? .mainColor : .gray
-            }
-            .disposed(by: disposeBag)
-    }
-    
-    private func inputTableView() {
-        ApiClient.fetchCharacters()
-            .bind(to: tableView.rx
-                    .items(cellIdentifier: "Cell", cellType: DemoTableViewCell.self)) { index, element, cell in
-                cell.initialize()
-                cell.setupWithCharacter(element)
-                cell.selectionStyle = .none
-            }
-            .disposed(by: disposeBag)
-        fetchButton.isEnabled = false
-        fetchButton.backgroundColor = .gray
-        switchView.customSwitch.isOn = false
-    }
+    // TODO: Bind all actions
 }
 
 extension ViewController: UITableViewDelegate {
