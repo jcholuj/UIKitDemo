@@ -3,22 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6618E71268E414E00E83058 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6618E70268E414E00E83058 /* BaseView.swift */; };
+		B64F6B4F26C077F2008EE831 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B64F6B4E26C077F2008EE831 /* SnapKit */; };
+		B64F6B5126C113F9008EE831 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6B5026C113F9008EE831 /* UIColorExtension.swift */; };
+		B64F6B5326C11D1B008EE831 /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6B5226C11D1B008EE831 /* DemoTableViewCell.swift */; };
+		B64F6B5526C11FEA008EE831 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6B5426C11FEA008EE831 /* Character.swift */; };
+		B64F6B5726C12027008EE831 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6B5626C12027008EE831 /* ApiService.swift */; };
+		B64F6B5A26C12069008EE831 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B64F6B5926C12069008EE831 /* RxCocoa */; };
+		B64F6B5C26C12069008EE831 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B64F6B5B26C12069008EE831 /* RxSwift */; };
+		B64F6B5F26C120E8008EE831 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B64F6B5E26C120E8008EE831 /* Alamofire */; };
+		B64F6B6126C12167008EE831 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6B6026C12167008EE831 /* ApiError.swift */; };
+		B64F6B6326C121E1008EE831 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6B6226C121E1008EE831 /* Endpoint.swift */; };
+		B64F6B6526C12462008EE831 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6B6426C12462008EE831 /* ApiClient.swift */; };
+		B64F6B6726C12732008EE831 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6B6626C12732008EE831 /* UIImageViewExtension.swift */; };
+		B64F6B6926C128E3008EE831 /* ReactiveExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6B6826C128E3008EE831 /* ReactiveExtension.swift */; };
+		B6618E71268E414E00E83058 /* SwitchBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6618E70268E414E00E83058 /* SwitchBackgroundView.swift */; };
 		B69FE3552642A999005340E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FE3542642A999005340E2 /* AppDelegate.swift */; };
 		B69FE3572642A999005340E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FE3562642A999005340E2 /* SceneDelegate.swift */; };
 		B69FE3592642A999005340E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FE3582642A999005340E2 /* ViewController.swift */; };
 		B69FE35E2642A99A005340E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69FE35D2642A99A005340E2 /* Assets.xcassets */; };
 		B69FE3612642A99A005340E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69FE35F2642A99A005340E2 /* LaunchScreen.storyboard */; };
-		B6B6B2A726860C7E00D3C4A5 /* SCCustomSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6B2A626860C7E00D3C4A5 /* SCCustomSwitch.swift */; };
-		B6B6B2A926860CCA00D3C4A5 /* SCCustomThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6B2A826860CCA00D3C4A5 /* SCCustomThumbView.swift */; };
+		B6B6B2A726860C7E00D3C4A5 /* CustomSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6B2A626860C7E00D3C4A5 /* CustomSwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B6618E70268E414E00E83058 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		B64F6B5026C113F9008EE831 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		B64F6B5226C11D1B008EE831 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
+		B64F6B5426C11FEA008EE831 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		B64F6B5626C12027008EE831 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		B64F6B6026C12167008EE831 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		B64F6B6226C121E1008EE831 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		B64F6B6426C12462008EE831 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		B64F6B6626C12732008EE831 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		B64F6B6826C128E3008EE831 /* ReactiveExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveExtension.swift; sourceTree = "<group>"; };
+		B6618E70268E414E00E83058 /* SwitchBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchBackgroundView.swift; sourceTree = "<group>"; };
 		B69FE3512642A999005340E2 /* UIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69FE3542642A999005340E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B69FE3562642A999005340E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +47,7 @@
 		B69FE35D2642A99A005340E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B69FE3602642A99A005340E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B69FE3622642A99A005340E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6B6B2A626860C7E00D3C4A5 /* SCCustomSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCustomSwitch.swift; sourceTree = "<group>"; };
-		B6B6B2A826860CCA00D3C4A5 /* SCCustomThumbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCustomThumbView.swift; sourceTree = "<group>"; };
+		B6B6B2A626860C7E00D3C4A5 /* CustomSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,12 +55,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64F6B5C26C12069008EE831 /* RxSwift in Frameworks */,
+				B64F6B5F26C120E8008EE831 /* Alamofire in Frameworks */,
+				B64F6B5A26C12069008EE831 /* RxCocoa in Frameworks */,
+				B64F6B4F26C077F2008EE831 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B64F6B4C26C06D10008EE831 /* CustomSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				B6618E70268E414E00E83058 /* SwitchBackgroundView.swift */,
+				B6B6B2A626860C7E00D3C4A5 /* CustomSwitch.swift */,
+			);
+			path = CustomSwitch;
+			sourceTree = "<group>";
+		};
 		B69FE3482642A999005340E2 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +93,22 @@
 		B69FE3532642A999005340E2 /* UIKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B64F6B4C26C06D10008EE831 /* CustomSwitch */,
 				B69FE3542642A999005340E2 /* AppDelegate.swift */,
 				B69FE3562642A999005340E2 /* SceneDelegate.swift */,
 				B69FE3582642A999005340E2 /* ViewController.swift */,
 				B69FE35D2642A99A005340E2 /* Assets.xcassets */,
 				B69FE35F2642A99A005340E2 /* LaunchScreen.storyboard */,
 				B69FE3622642A99A005340E2 /* Info.plist */,
-				B6B6B2A626860C7E00D3C4A5 /* SCCustomSwitch.swift */,
-				B6B6B2A826860CCA00D3C4A5 /* SCCustomThumbView.swift */,
-				B6618E70268E414E00E83058 /* BaseView.swift */,
+				B64F6B5026C113F9008EE831 /* UIColorExtension.swift */,
+				B64F6B5226C11D1B008EE831 /* DemoTableViewCell.swift */,
+				B64F6B5426C11FEA008EE831 /* Character.swift */,
+				B64F6B5626C12027008EE831 /* ApiService.swift */,
+				B64F6B6026C12167008EE831 /* ApiError.swift */,
+				B64F6B6226C121E1008EE831 /* Endpoint.swift */,
+				B64F6B6426C12462008EE831 /* ApiClient.swift */,
+				B64F6B6626C12732008EE831 /* UIImageViewExtension.swift */,
+				B64F6B6826C128E3008EE831 /* ReactiveExtension.swift */,
 			);
 			path = UIKitDemo;
 			sourceTree = "<group>";
@@ -89,6 +129,12 @@
 			dependencies = (
 			);
 			name = UIKitDemo;
+			packageProductDependencies = (
+				B64F6B4E26C077F2008EE831 /* SnapKit */,
+				B64F6B5926C12069008EE831 /* RxCocoa */,
+				B64F6B5B26C12069008EE831 /* RxSwift */,
+				B64F6B5E26C120E8008EE831 /* Alamofire */,
+			);
 			productName = UIKitDemo;
 			productReference = B69FE3512642A999005340E2 /* UIKitDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -116,6 +162,11 @@
 				Base,
 			);
 			mainGroup = B69FE3482642A999005340E2;
+			packageReferences = (
+				B64F6B4D26C077F2008EE831 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B64F6B5826C12069008EE831 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				B64F6B5D26C120E8008EE831 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = B69FE3522642A999005340E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -142,12 +193,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6B6B2A926860CCA00D3C4A5 /* SCCustomThumbView.swift in Sources */,
+				B64F6B5326C11D1B008EE831 /* DemoTableViewCell.swift in Sources */,
 				B69FE3592642A999005340E2 /* ViewController.swift in Sources */,
 				B69FE3552642A999005340E2 /* AppDelegate.swift in Sources */,
-				B6618E71268E414E00E83058 /* BaseView.swift in Sources */,
-				B6B6B2A726860C7E00D3C4A5 /* SCCustomSwitch.swift in Sources */,
+				B64F6B6126C12167008EE831 /* ApiError.swift in Sources */,
+				B6618E71268E414E00E83058 /* SwitchBackgroundView.swift in Sources */,
+				B64F6B5126C113F9008EE831 /* UIColorExtension.swift in Sources */,
+				B64F6B5726C12027008EE831 /* ApiService.swift in Sources */,
+				B6B6B2A726860C7E00D3C4A5 /* CustomSwitch.swift in Sources */,
+				B64F6B6926C128E3008EE831 /* ReactiveExtension.swift in Sources */,
 				B69FE3572642A999005340E2 /* SceneDelegate.swift in Sources */,
+				B64F6B6326C121E1008EE831 /* Endpoint.swift in Sources */,
+				B64F6B5526C11FEA008EE831 /* Character.swift in Sources */,
+				B64F6B6726C12732008EE831 /* UIImageViewExtension.swift in Sources */,
+				B64F6B6526C12462008EE831 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +400,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B64F6B4D26C077F2008EE831 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		B64F6B5826C12069008EE831 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+		B64F6B5D26C120E8008EE831 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B64F6B4E26C077F2008EE831 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B64F6B4D26C077F2008EE831 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		B64F6B5926C12069008EE831 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B64F6B5826C12069008EE831 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		B64F6B5B26C12069008EE831 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B64F6B5826C12069008EE831 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		B64F6B5E26C120E8008EE831 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B64F6B5D26C120E8008EE831 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B69FE3492642A999005340E2 /* Project object */;
 }
